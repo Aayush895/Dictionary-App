@@ -1,7 +1,9 @@
+import Navbar from "./Components/Navbar"
+
 function App() {
   return (
     <>
-      <h1>Welcome to the dictionary web app</h1>
+      <Navbar />
     </>
   )
 }
