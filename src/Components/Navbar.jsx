@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div id={styles.navContainer}>
       <div id={styles.navLogo}>
-        <img src="../../public/images/logo.svg" alt="logo" />
+        <img src="/images/logo.svg" alt="logo" />
       </div>
       <div id={styles.navItems}>
         <select name="font-types" id={styles.fontTypes}>

@@ -1,0 +1,33 @@
+#outerContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 47%;
+}
+
+#outerContainer > form > input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--gray-2);
+  border: none;
+  position: relative;
+}
+
+::placeholder {
+  color: var(--gray-1);
+  font-weight: bold;
+}
+
+#outerContainer > form > input:active {
+  border-color: var(--purple);
+}
+
+#outerContainer > img {
+  position: absolute;
+  right: 33rem;
+}
